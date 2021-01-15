@@ -1,0 +1,59 @@
+.nav-menu {
+  padding: 25px;
+}
+.fas {
+  color: #dbc1ac;
+}
+.menu {
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #dbc1ac;
+  transition: all 0.4s;
+}
+.menu:hover {
+  color: #634832;
+}
+.bar1,
+.bar2,
+.bar3 {
+  width: 23px;
+  height: 3px;
+  margin: 5px;
+  transition: all 0.4s;
+}
+.navbar-toggler {
+  outline: none !important;
+}
+/* Header */
+.banner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+}
+.heading {
+  animation-name: slide;
+  animation-duration: 2s;
+}
+.main {
+  animation-name: slide;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-fill-mode: backwards;
+}
+@keyframes slide {
+  0% {
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@media (max-width: 576px) {
+  .navbar-nav li a {
+    padding: 0 !important;
+  }
+}

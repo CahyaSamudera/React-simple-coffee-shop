@@ -1,0 +1,33 @@
+.content-4 .nav {
+  justify-content: center;
+  margin: 5%;
+}
+.content-4 .nav-tabs {
+  margin: 2px;
+  border: none;
+  border-bottom: 0px;
+  text-align: center;
+  cursor: pointer;
+  background: #000;
+}
+.content-4 .tab-item {
+  text-decoration: none;
+  color: #dbc1ac;
+}
+.content-4 .tab-item i {
+  display: block;
+  font-size: 45px;
+  padding: 0.4em 1.7em 0em 1.7em;
+}
+.content-4 .tab-item span {
+  display: inline-block;
+  padding-bottom: 16px;
+  width: 100%;
+}
+.content-4 .tab-item.active {
+  color: #967259;
+}
+.tab-content {
+  margin-bottom: 5%;
+  transition: all 0.4s ease;
+}
